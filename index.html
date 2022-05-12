@@ -5,7 +5,11 @@
   <meta charset="utf-8"> <!-- essa tag passa informacoes para o navegador -->
   <meta name="viewport" content="width=device-width">
   <title>Aula 01</title>
-  
+  <style>
+    table, tr, td{
+  border:1px solid #000000;
+}
+  </style>
 </head>
 
 <body >
@@ -37,6 +41,32 @@ Todas as informações sobre os cursos; a reserva de vagas e ações afirmativas
   <li>banana</li>
   <li>pera</li>
 </ol>
+
+  <table>
+    <tr>
+      <td colspan=4>1</td>
+
+    </tr>
+    <tr>
+      <td>1</td>
+      <td colspan=3>2</td>
+    </tr>
+    <tr>
+      <td colspan=2>1</td>
+      <td colspan=2>2</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td rowspan=2>4</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+  </table>
 </body>
 
 </html>
